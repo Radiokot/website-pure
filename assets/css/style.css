@@ -76,6 +76,5 @@ a {
 #content {
 	color: #484848;
 	font-family: 'Open Sans', sans-serif;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 15vh 30px 30px 30px;
 }
