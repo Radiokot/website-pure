@@ -2,6 +2,7 @@ html, body {
 	padding: 0;
 	margin: 0;
 	top: 0;
+	background-color: #fafafa; 
 }
 
 a {
@@ -56,4 +57,25 @@ a {
 
 #header #email:hover {
 	opacity: 1;
+}
+
+.feed-entry {
+	margin-top: 35px;
+}
+
+.feed-entry img {
+	width: 100%;
+	border-radius: 6px;
+	box-shadow: 2px 0px 10px #cccccc;
+}
+
+.feed-entry h3 {
+	margin: 25px 0;
+}
+
+#content {
+	color: #484848;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 30px;
+	padding-right: 30px;
 }
