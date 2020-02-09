@@ -4,10 +4,56 @@ html, body {
 	top: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit
+}
+
 #header {
 	position: fixed;
 	top: 0;
 	height: 100%;
-	background: red;
+	background-color: #2d241d;
 	overflow-y: hidden;
+	text-align: right;
+	color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20vh 50px 0 50px;
+}
+
+#header #avatar {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+}
+
+#header h1 {
+	margin-bottom: -5pt;
+}
+
+#header #social_buttons {
+	margin-top: 5vh;
+}
+
+#header #social_buttons svg {
+	fill: currentColor;
+	width: 25px;
+	height: 25px;
+	margin-left: 10px;
+	opacity: 0.8;
+	transition: all ease-out 100ms;
+}
+
+#header #social_buttons svg:hover {
+	opacity: 1;
+}
+
+#header #email {
+	font-size: 8pt;
+	opacity: 0.8;
+	transition: all ease-out 100ms;
+}
+
+#header #email:hover {
+	opacity: 1;
 }

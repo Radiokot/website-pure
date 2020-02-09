@@ -1,19 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru-RU" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<title>Олег Корецкий</title>
+	<link href="assets/img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	<link href="lib/css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<header id="header" class="col-lg-4 col-md-5 col-sm-6">
-		<div style="width: 60%; height: 500px; background: blue; color: white;">
-			<p>Hello, my name is Oleg
+		<img id="avatar" src="assets/img/me.jpg" alt="Олег Корецкий"/>
+		<h1>Меня зовут Олег</h1>
+		<p>Я живу в Харькове и порой делаю что-то интересное</p>
+		<div id="social_buttons">
+			<a title="Instagram" href="https://www.instagram.com/radiokot42/" target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+					<path d="m11.7 1.1h16a11.1 11.1 0 0 1 11 11v16a11.1 11.1 0 0 1-11 11h-16a11.3 11.3 0 0 1-11-11v-16a11 11 0 0 1 11-11m-0.3 3.7a6.9 6.9 0 0 0-6.9 6.9v16.8a6.9 6.9 0 0 0 6.9 6.9h16.8a6.9 6.9 0 0 0 6.9-6.9v-16.8a6.9 6.9 0 0 0-6.9-6.9h-16.8m18.2 2.9a2.4 2.4 0 1 1-2.3 2.4 2.3 2.3 0 0 1 2.4-2.4m-10 2.8a9.6 9.6 0 0 1 0 19.1 9.6 9.6 0 0 1-9.6-9.6 9.8 9.8 0 0 1 9.6-9.6m0 3.8a5.7 5.7 0 1 0 5.7 5.7 5.7 5.7 0 0 0-5.7-5.7z"/>
+				</svg>
+			</a>
+			<a title="Strava" href="https://www.strava.com/athletes/31044651" target="_blank">
+				<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+					<path class="cls-1" d="M25.1 29.4 21.8 23H17l8.2 16 8.1-16H28.5l-3.4 6.4"/>
+					<path class="cls-1" d="M17.5 14.3 21.9 23h6.4l-11-21.4L6.5 23H13l4.5-8.7"/>
+				</svg>
+			</a>
+			<a title="GitHub" href="https://github.com/Radiokot" target="_blank">
+				<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+					<path d="M3.76,25.52c-.79-.8,1.46-.8,1.59-.67.4.14,2.78,2.92,4.11,3.71a4.19,4.19,0,0,0,4.77-.13c.53-.53.53-1.32,1.19-1.85a8.67,8.67,0,0,1,2-.93c-3.58-.27-7.69-1.19-9.94-4.24S5,13.46,6.54,10.15A17,17,0,0,1,7.73,8.29.7.7,0,0,0,8,7.1a15.32,15.32,0,0,1,.26-4.77c.53-1.06.53-.92,1.86-.66a23.65,23.65,0,0,1,5.83,2C21,3,21,3,27.61,3.13,28.53,2.6,32,.61,33,1.41s.53,4.1.53,5.29a.85.85,0,0,0,.26,1.2,14.55,14.55,0,0,1,1.59,2.91c1.06,3.31.93,7.68-1.19,10.6S28.4,25.25,25,25.52c5.69,2.91.92,8.61,4.37,12.18.53.53,1.06.67.26,1.2s-2-.27-2.51-.67c-2.08-2.23-.27-8.47-2.39-9,0,2.65-.66,6.22.13,8.74.27.79,1.33,1.59.27,1.85-1.33.4-2.65-1.59-2.92-2.51-.39-1.46.14-8.08-.26-8.61a2.71,2.71,0,0,0-1.46.13c-.26.26-.13,8.48-.53,9.27-.13.27-3.18,2.65-3.18,1.46,2.12-2.12,1.06-7.82,1.06-10.6-2.51.66-.79,6-1.32,7.82a2.94,2.94,0,0,1-2.25,1.85c-.27,0-1.2.27-1.59,0-.67-.53,0-.53.26-1.06,3.1-1.57.93-4.77,1.19-6C9,33,5.35,27,3.76,25.52Z"/>
+				</svg>
+			</a>
+			<a title="Telegram" href="https://t.me/radiokot42" target="_blank">
+				<svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+					<path d="M15.43,34.8c-1.12,0-.87-.37-1.36-1.49l-3.23-10.8L36,7.63" fill="#D8D8D8"/>
+					<path d="M15.43,34.8a2.17,2.17,0,0,0,1.74-.87l4.59-4.47L16.05,26" fill="#C5C5C5"/>
+					<path d="M15.93,26,29.7,36.16c1.61.87,2.73.37,3.1-1.49L38.38,8.12C39,5.76,37.52,4.77,36,5.39L3,18.17C.79,19,.79,20.28,2.65,20.9l8.44,2.61L30.69,11.1c.87-.62,1.74-.25,1.12.37"/>
+				</svg>
+			</a>
 		</div>
+		<a id="email" href="mailto:&#115;&#112;&#105;&#114;&#105;&#116;&#49;&#49;&#49;&#64;&#117;&#107;&#114;&#46;&#110;&#101;&#116;?subject=radiokot.com.ua">&#115;&#112;&#105;&#114;&#105;&#116;&#49;&#49;&#49;&#64;&#117;&#107;&#114;&#46;&#110;&#101;&#116;</a>
 	</header>
 	<div id="content" class="offset-lg-4 col-lg-8 offset-md-5 col-md-7 offset-sm-6 col-sm-6">
 		<div style="width: 60%; height: 1500px; background: green; color: white;">
 			<p>Hello, my name is Oleg
 		</div>
 	</div>
+
+	<script src="assets/js/main.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
 </body>
 </html>
