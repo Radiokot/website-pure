@@ -8,4 +8,16 @@ var setRandomHeaderBackground = function() {
 	header.style.backgroundSize = 'cover'
 }
 
+var alternateFeedEntriesOrder = function() {
+	var feeds = document.getElementsByClassName('feed')
+	for (feed of feeds) {
+		var entries = feed.getElementsByClassName('feed-entry')
+		for (var i = 0; i < entries.length; i++) {
+			var entry = entries[i]
+			entry.style.flexDirection = (i % 2 == 0) ? 'row' : 'row-reverse'
+		}
+	}
+}
+
 setRandomHeaderBackground()
+alternateFeedEntriesOrder()

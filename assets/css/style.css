@@ -60,7 +60,13 @@ a {
 }
 
 .feed-entry {
+	display: flex;
+	flex-direction: row;
 	margin-top: 35px;
+}
+
+.feed-entry .img-container {
+	align-self: center;
 }
 
 .feed-entry img {

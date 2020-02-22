@@ -1,0 +1,34 @@
+@media (max-width: 767px) {
+    #header {
+		position: relative;
+		height: auto;
+		text-align: center;
+    	padding: 50px;
+	}
+
+	#header #social_buttons {
+		margin-left: -10px;
+	}
+
+	#content {
+		padding: 20px 10px;
+	}
+}
+
+@media (max-width: 991px) {
+	.feed-entry {
+		margin-top: 60px;
+	}
+
+	.feed-entry p {
+		text-align: justify;
+	}
+
+	.feed-entry .img-container {
+		order: 0;
+	}
+
+	.feed-entry .text-container {
+		order: 1;
+	}
+}
