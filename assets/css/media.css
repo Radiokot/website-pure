@@ -13,6 +13,19 @@
 	#content {
 		padding: 20px 10px;
 	}
+
+	.full-article {
+		padding: 30px 20px 0px;
+	}
+
+	.full-article h1 {
+		font-size: 24pt;
+	}
+
+	.button {
+		width: 100%;
+		text-align: center;
+	}
 }
 
 @media (max-width: 991px) {
@@ -30,5 +43,9 @@
 
 	.feed-entry .text-container {
 		order: 1;
+	}
+
+	.full-article {
+		margin: 0px;
 	}
 }
