@@ -19,5 +19,24 @@ var alternateFeedEntriesOrder = function() {
 	}
 }
 
+var redirectByHash = function() {
+	var hash = window.location.hash
+	switch (hash) {
+		case '#feed':
+			window.location.replace('p/feed')
+			break
+		case '#citatnik':
+			window.location.replace('p/citatnik')
+			break
+		case '#likechecker':
+			window.location.replace('p/likechecker')
+			break
+		case '#hammill':
+			window.location.replace('p/hammill')
+			break
+	}
+}
+
+redirectByHash()
 setRandomHeaderBackground()
 alternateFeedEntriesOrder()
