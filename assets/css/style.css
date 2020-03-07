@@ -104,6 +104,7 @@ html, body {
 
 .full-article .footer-img {
 	width: 95%;
+	vertical-align: bottom;
 }
 
 .full-article header {
