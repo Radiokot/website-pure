@@ -18,8 +18,22 @@
 		padding: 30px 20px 0px;
 	}
 
+	.full-article header {
+		margin-bottom: 25px;
+	}
+
 	.full-article h1 {
 		font-size: 24pt;
+		margin-bottom: 30px;
+	}
+
+	.full-article header #avatar {
+		width: 30px;
+		height: 30px;
+	}
+
+	.full-article .footer-img {
+		width: 100%;
 	}
 
 	.button {

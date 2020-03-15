@@ -88,7 +88,7 @@ html, body {
 	text-align: justify;
 	background-color: white;
 	padding: 30px 50px 0px;
-	font-size: 14pt;
+	font-size: 12pt;
 	margin: 0px 10% 0px 10%;
 	border-radius: 6px;
 	color: #212121;
@@ -96,6 +96,7 @@ html, body {
 
 .full-article h1 {
 	font-size: 32pt;
+	margin-bottom: 60px;
 }
 
 .full-article p {
@@ -117,6 +118,7 @@ html, body {
 	vertical-align: middle;
 	padding-left: 10pt;
 	color: gray;
+	font-size: 12pt;
 }
 
 .full-article header #avatar {
