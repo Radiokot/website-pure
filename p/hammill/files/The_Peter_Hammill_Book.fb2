@@ -95,6 +95,7 @@
    <id>EEDDC3D9-33B6-43A2-8C06-106D5E14F8C2</id>
    <version>1.0</version>
    <history>
+    <p>v 1.1 — Add Rare Lyrics section and a Vision poem from the album cover</p>
     <p>v 1.0 — Initial release</p>
    </history>
   </document-info>
@@ -14269,6 +14270,63 @@
       <v>Now the image blurs</v>
       <v>of how we seemed</v>
       <v>of what we were.</v>
+     </stanza>
+    </poem>
+   </section>
+   <section>
+    <title>
+     <p>Rare Lyrics</p>
+    </title>
+    <empty-line/>
+    <p>The following lyrics are hard to find one, never published officially</p>
+    <poem>
+     <title>
+      <p>Vision</p>
+     </title>
+     <epigraph>
+      <p>The poem from the P.H. Vision album back cover.  Thanks to Allan Openshaw</p>
+     </epigraph>
+     <stanza>
+      <v>The aspects of vision are many,</v>
+      <v>and in addition there are</v>
+      <v>  reflections, illusions and hallucinations.</v>
+      <v> </v>
+      <v>If some can be shared,</v>
+      <v>  that makes us less alone.</v>
+      <v>If the dark can be faced,</v>
+      <v>  that makes us less afraid.</v>
+      <v>If we accept sight,</v>
+      <v>  then that makes us more visible.</v>
+      <v> </v>
+      <v>I feel the city caging me like an animal;</v>
+      <v>I am crushed by the weight of the system,</v>
+      <v>but still can raise a – human – shout</v>
+      <v>      against it.</v>
+      <v>I feel the tension of doubt surge in me,</v>
+      <v>  the release on eye-on-eye love,</v>
+      <v>  the loss of childhood idols and aspirations;</v>
+      <v>I clutch the transitory prizes</v>
+      <v>  of knowledge and unspoken faith.</v>
+      <v>I feel the torch in my hand,</v>
+      <v>the spark in my heart,</v>
+      <v>and I must carry both as long as I can.</v>
+      <v> </v>
+      <v>We all have our torches;</v>
+      <v>but lone flame-bearers do not</v>
+      <v>make a procession of humanity.</v>
+      <v>It has been, and remains, my hope</v>
+      <v>that through songs vision</v>
+      <v>  can be shared and enhanced.</v>
+      <v> </v>
+      <v>As for me, </v>
+      <v>disappearing like the Cheshire Cat</v>
+      <v>with hardly even my smile intact,</v>
+      <v>I can still look at you</v>
+      <v>only through the camera.</v>
+      <v> </v>
+      <v>There is more urgent vision than that.</v>
+      <v> </v>
+      <v>Listen to yourself.</v>
      </stanza>
     </poem>
    </section>
