@@ -80,7 +80,7 @@ html, body {
 	align-items: center;
 }
 
-.feed-entry img {
+.feed-entry .img-container img {
 	transition: .3s ease-out;
 	width: 100%;
 	border-radius: 6px;
@@ -91,7 +91,7 @@ html, body {
 	background: white;
 }
 
-.feed-entry:hover img {
+.feed-entry:hover .img-container img {
 	transform: scale(1.07);
 }
 
