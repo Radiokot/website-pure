@@ -64,6 +64,7 @@ html, body {
 	transition: .35s ease-out;
 	display: flex;
 	margin-top: 35px;
+	border-radius: 6px;
 }
 
 .feed-entry-even {
