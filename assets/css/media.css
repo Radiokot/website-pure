@@ -1,9 +1,9 @@
 @media (max-width: 767px) {
-    #header {
+	#header {
 		position: relative;
 		height: auto;
 		text-align: center;
-    	padding: 50px;
+		padding: 50px;
 	}
 
 	#header #social_buttons {

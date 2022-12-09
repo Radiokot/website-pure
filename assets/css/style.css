@@ -61,19 +61,38 @@ html, body {
 }
 
 .feed-entry {
+	transition: .35s ease-out;
 	display: flex;
-	flex-direction: row;
 	margin-top: 35px;
+	border-radius: 6px;
+}
+
+.feed-entry-even {
+	flex-direction: row;
+}
+
+.feed-entry-odd {
+	flex-direction: row-reverse;
 }
 
 .feed-entry .img-container {
-	align-self: center;
+	display: flex;
+	align-items: center;
 }
 
 .feed-entry img {
+	transition: .3s ease-out;
 	width: 100%;
 	border-radius: 6px;
-	box-shadow: 2px 0px 10px #cccccc;
+	box-shadow: 2px 0px 10px #c5c5c5;
+}
+
+.feed-entry:hover {
+	background: white;
+}
+
+.feed-entry:hover img {
+	transform: scale(1.07);
 }
 
 .feed-entry h3 {

@@ -14,7 +14,7 @@ var alternateFeedEntriesOrder = function() {
 		var entries = feed.getElementsByClassName('feed-entry')
 		for (var i = 0; i < entries.length; i++) {
 			var entry = entries[i]
-			entry.style.flexDirection = (i % 2 == 0) ? 'row' : 'row-reverse'
+			entry.classList.add((i % 2 == 0) ? 'feed-entry-even' : 'feed-entry-odd')
 		}
 	}
 }
